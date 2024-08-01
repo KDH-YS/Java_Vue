@@ -3,8 +3,20 @@ import HomeView from '@/views/HomeView.vue'
 import TestView from '../views/TestView.vue'
 import BasicView from '@/views/BasicView.vue'
 import ExamView from '@/views/ExamView.vue'
+import TestView2 from '@/views/TestView2.vue'
+import TestView3 from '@/views/TestView3.vue'
 
 const routes = [
+  {
+    path: '/test3',
+    name: 'TestView3',
+    component: TestView3
+  },
+  {
+    path: '/test2',
+    name: 'TestView2',
+    component: TestView2
+  },
   {
     path: '/exam',
     name: 'ExamView',

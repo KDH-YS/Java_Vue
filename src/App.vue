@@ -3,8 +3,11 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
     <router-link to="/test">테스트</router-link> |
+    <router-link to="/test2">테스트2</router-link> |
+    <router-link to="/test3">테스트3</router-link> |
     <router-link to="/basic">3.컴포넌트</router-link> |
-    <router-link to="/exam">예제1</router-link>
+    <router-link to="/exam">예제1</router-link> 
+
   </nav>
   <router-view/>
 </template>
