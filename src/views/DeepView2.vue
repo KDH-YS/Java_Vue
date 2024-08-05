@@ -63,9 +63,7 @@ export default {
       //alert('clickGpapa() 끝');
     }
     // 컴포넌트에서 사용할 메서드를 정의합니다.
-  },
-  provide,
-  inject:['']
+  }
 };
 </script>
 
