@@ -1,12 +1,36 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '@/views/HomeView.vue'
-import TestView from '../views/TestView.vue'
+import TestView1 from '../views/TestView1.vue'
 import BasicView from '@/views/BasicView.vue'
 import ExamView from '@/views/ExamView.vue'
 import TestView2 from '@/views/TestView2.vue'
 import TestView3 from '@/views/TestView3.vue'
+import TestView4 from '@/views/TestView4.vue'
+import TestView5 from '@/views/TestView5.vue'
+import TestView6 from '@/views/TestView6.vue'
+import App1 from'@/views/firstweek/App.vue'
 
 const routes = [
+  {
+    path: '/App',
+    name: 'App',
+    component: App1
+  },
+  {
+    path: '/test6',
+    name: 'TestView6',
+    component: TestView6
+  },
+  {
+    path: '/test5',
+    name: 'TestView5',
+    component: TestView5
+  },
+  {
+    path: '/test4',
+    name: 'TestView4',
+    component: TestView4
+  },
   {
     path: '/test3',
     name: 'TestView3',
@@ -33,9 +57,9 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/test',
-    name: 'test',
-    component: TestView
+    path: '/App/test1',
+    name: 'test1',
+    component: TestView1
   },
   {
     path: '/about',

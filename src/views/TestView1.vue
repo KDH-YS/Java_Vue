@@ -4,8 +4,8 @@
       <input type="text" :value="nick"><br>
       <input type="text" v-model="nick"><br>
       <input type="number" v-model.number="age"> <br>
-      <textarea name="" id="" cols="30" rows="10">마르고 닳도록</textarea><br/>
-      <textarea v-model="message" id="" cols="30" rows="10"></textarea><br/>
+      <textarea name="" id="" cols="30" rows="10">마르고 닳도록</textarea><br>
+      <textarea v-model="message" id="" cols="30" rows="10"></textarea><br>
       <select name="" id="">
         <option value="01">서울</option>
         <option value="02" selected>인천</option>
@@ -22,7 +22,7 @@
   </template>
   <script>
   export default {
-    name: 'TestView',
+    name: 'TestView1',
     components: {
             
     },
