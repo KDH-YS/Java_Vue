@@ -10,8 +10,8 @@
 </template>
 
 <script>
-import Sample01Pop from './Sample01Pop.vue';
-import Sample02Pop from './Sample02Pop.vue';
+import Sample01Pop from '@/views/firstweek/Sample01Pop.vue';
+import Sample02Pop from '@/views/firstweek/Sample02Pop.vue';
 export default {
   name: 'TestView',
   components:{

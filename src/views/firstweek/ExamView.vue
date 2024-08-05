@@ -42,7 +42,7 @@ export default {
   data() {
     return {
     username:'엄복동',
-    email:'byciclethief@gmail.com',
+    email:'bycyclethief@gmail.com',
     gender:'',
     
     signup:{

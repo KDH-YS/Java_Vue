@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import TemplatePop from './TemplatePop.vue';
+import TemplatePop from '../TemplatePop.vue';
 export default {
   name: 'Sample02Pop',
   components:{

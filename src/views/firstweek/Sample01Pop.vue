@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import TemplatePop from './TemplatePop.vue';
+import TemplatePop from '@/views/TemplatePop.vue';
 export default {
   name: 'Sample01Pop',
   components:{

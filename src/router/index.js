@@ -1,16 +1,16 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '@/views/HomeView.vue'
-import TestView1 from '@/views/TestView1.vue'
+import HomeView from '@/views/root/HomeView.vue'
 import BasicView from '@/views/BasicView.vue'
-import ExamView from '@/views/ExamView.vue'
+import ExamView from '@/views/firstweek/ExamView.vue'
 import TestView from '@/views/TestView.vue'
-import TestView2 from '@/views/TestView2.vue'
-import TestView3 from '@/views/TestView3.vue'
-import TestView4 from '@/views/TestView4.vue'
-import TestView5 from '@/views/TestView5.vue'
-import TestView6 from '@/views/TestView6.vue'
-import DeepView from '@/views/DeepView.vue'
-import DeepView2 from '@/views/DeepView2.vue'
+import TestView1 from '@/views/firstweek/TestView1.vue'
+import TestView2 from '@/views/firstweek/TestView2.vue'
+import TestView3 from '@/views/firstweek/TestView3.vue'
+import TestView4 from '@/views/firstweek/TestView4.vue'
+import TestView5 from '@/views/firstweek/TestView5.vue'
+import TestView6 from '@/views/firstweek/TestView6.vue'
+import DeepView from '@/views/firstweek/DeepView.vue'
+import DeepView2 from '@/views/firstweek/DeepView2.vue'
 import CalculatorView1 from '../views/CalculatorView1.vue'
 import CalculatorView2 from '../views/CalculatorView2.vue'
 import CalculatorView3 from '../views/CalculatorView3.vue'
@@ -95,7 +95,7 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/root/AboutView.vue')
   },
   {
     path: '/calculator1',
